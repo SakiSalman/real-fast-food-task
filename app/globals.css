@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cart-inactive{
+    bottom: -999999999999px;
+    transition: all .8s ease-in-out;
+}
+.cart-active{
+    bottom: 16px;
+    transition: all .8s ease-in-out;
+}
+._container {
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 40px;
+  }
+
+  /* mobile css */
+@media screen and (max-width: 768px) {
+    ._container {
+        max-width: 100%;
+        padding: 0 3%;
+    }
+  }
